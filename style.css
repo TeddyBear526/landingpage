@@ -26,20 +26,23 @@ body{
     color: white;
 }
 
-.hero-overlay{
-    position: absolute;
-    inset: 0;
-    background: rgba(0, 0, 0, 0.2);
+.hero > * {
+    z-index: 100;
+    position: relative;
 }
 
-.hero-content{
-    position: relative;
-    text-align: center;
+.filter{
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.4);
     z-index: 1;
 }
 
+.hero-content{
+    text-align: center;
+}
+
 .hero-logo{
-    position:relative ;
     border: none;
     margin: 0;
     padding: 0;
@@ -85,7 +88,7 @@ body{
     border-radius: 0.75rem;
     backdrop-filter: blur(10px);
     padding: 1.5rem;
-    color: black;
+    color: white;
 }
 
 .stat-icon {
@@ -103,7 +106,7 @@ body{
 
 .stat-label {
     font-size: 0.875rem;
-    color: black;
+    color: white;
 }
 
 .hero-buttons {
