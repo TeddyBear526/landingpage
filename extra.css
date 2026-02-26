@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: repeating-linear-gradient(45deg,#15803d 0px, #15803d 50px,#16a34a 50px, #22c55e 100px);
+    background-size: cover;
+    overflow: hidden;
+    text-align: center;
+    padding:5rem 1rem 15rem ;
+    color:white;
+}
+
+.home{
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    size: 2rem;
+    transition:all 0.3s ;
+}
+
+.home:hover{
+    border: gray;
+}

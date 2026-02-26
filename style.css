@@ -320,3 +320,17 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+.home{
+    padding: 0;
+    margin: 0; 
+    border: transparent;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+.home:hover{
+    size-adjust: 1rem;
+    border: gray;
+}
