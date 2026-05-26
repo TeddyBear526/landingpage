@@ -25,6 +25,13 @@ body{
     text-align: center;
     color: white;
 }
+@media (max-width: 950px) {
+    .hero{ 
+    background-image: url(88490961-4531-4d66-aa18-f1389e0db489.jpg);
+    background-position: center;
+    }
+
+}
 
 .hero > * {
     z-index: 100;
@@ -46,7 +53,9 @@ body{
     border: none;
     margin: 0;
     padding: 0;
-    position: top;
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
 
 .hero.logo h1{
