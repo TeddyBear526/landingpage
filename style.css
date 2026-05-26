@@ -340,6 +340,6 @@ body{
 }
 
 .home:hover{
-    size-adjust: 1rem;
+    size-adjust: 10%;
     border: gray;
 }
